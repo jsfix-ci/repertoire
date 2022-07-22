@@ -1,6 +1,6 @@
+import effects from 'redux-saga/effects';
 import {combineReducers, compose, createStore, applyMiddleware} from 'redux'
 import createSagaMiddleware, {END} from 'redux-saga'
-import {effects} from 'redux-saga'
 import {handleActions} from 'redux-actions'
 import BaseController from './basecontroller.js'
 

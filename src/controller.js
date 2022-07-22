@@ -1,7 +1,7 @@
+import effects from 'redux-saga/effects';
 import {handleActions} from 'redux-actions'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
-import {effects} from 'redux-saga'
 
 const {call, take, put} = effects;
 
